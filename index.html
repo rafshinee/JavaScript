@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lista de Compras</title>
+<script src="./index.js" defer></script>
+
+<style>
+table {
+border-collapse:separate;
+border-spacing: 10px;
+float:inline-start
+
+}
+td {
+border: 2px solid black;
+padding: 40px;
+}
+</style>
+
+</head>
+
+<body>
+<h1>Lista de Compras</h1>
+<hr />
+
+<p>
+Item: <input id="inputItem" type="text" />
+<br/>
+Quantidade: <input id="inputQuantidade" type="number"/>
+<br/>
+Preço: <input id="inputPreço" type="number"/>
+<br/>
+<button id="btAdicionar">Adicionar</button>
+<button id="btLimpar">Limpar</button>
+</p>
+
+<hr />
+
+    <table>
+    <tr>
+    <th>Descrição</th>
+    <th>Quantidade</th>
+    <th>Preço</th>
+    </tr>
+
+    </table>
+    <ul id="lista"></ul>
+</body>
+</html>
